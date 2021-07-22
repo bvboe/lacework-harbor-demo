@@ -2,3 +2,4 @@ local-files/
 bitnami-docker-harbor-portal-master/
 master.tar.gz
 config.yml
+.DS_STORE
