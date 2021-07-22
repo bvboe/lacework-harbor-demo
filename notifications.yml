@@ -1,0 +1,5 @@
+harbor:
+  digest: $.event_data.resources[0].digest
+  tag: $.event_data.resources[0].tag
+  repo: $.event_data.repository.repo_full_name
+

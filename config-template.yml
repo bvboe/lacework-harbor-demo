@@ -1,0 +1,15 @@
+# The recommended path is /opt/lacework/cache
+static_cache_location: /opt/lacework/cache
+lacework:
+  account_name: <account_name>
+  integration_access_token: <integration_access_token>
+registries:
+  - domain: kubernetes.docker.internal
+    name: Harbor
+    ssl: false
+    auto_poll: false
+    credentials:
+      user_name: "admin"
+      password: "bitnami"
+    poll_frequency_minutes: 20
+    notification_type: harbor
