@@ -154,3 +154,18 @@ Check the proxy scanner logs to see the scan running:
 ```
 $ docker logs lacework-proxy-scanner
 ```
+## Shut down demo environment
+To remove the demo from your machine, run the following script:
+```
+$ ./teardown.sh
+Killing nginx                                             ... done
+Killing harbor-portal                                     ... done
+Killing harbor-jobservice                                 ... done
+Killing harbor-core                                       ... done
+Killing bitnami-docker-harbor-portal-master_registryctl_1 ... done
+Killing bitnami-docker-harbor-portal-master_registry_1    ... done
+Killing bitnami-docker-harbor-portal-master_redis_1       ... done
+Killing harbor-db                                         ... done
+Killing chartmuseum                                       ... done
+lacework-proxy-scanner
+```
