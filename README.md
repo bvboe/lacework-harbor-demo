@@ -1,4 +1,6 @@
 # Demonstration of scanning images in Harbor using Lacework
+
+[![Git](https://app.soluble.cloud/api/v1/public/badges/2602abc8-3a3e-43fb-b012-42a808c4c6f6.svg?orgId=876591125400)](https://app.soluble.cloud/repos/details/github.com/bvboe/lacework-harbor-demo?orgId=876591125400)  
 This demonstration shows how to enable integration between Harbor and Lacework to ensure all images in Harbor automatically gets scanned by Lacework.
 
 The demo runs on a regular Mac with Docker Desktop installed and run both Harbor and the Lacework Proxy Scanner on your desktop.
